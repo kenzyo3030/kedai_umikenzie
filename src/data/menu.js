@@ -46,5 +46,21 @@ export const menuItems = [
     description: "Es jadul warna-warni dengan rasa manis segar yang bikin nostalgia masa kecil!",
     category: "Minuman",
     image: "/images/esmambo.jpg"
+  },
+  {
+    id: 7,
+    name: "Hotang Crispy",
+    price: 12000,
+    description: "Sosis jumbo dilapisi adonan kentang goreng renyah, disajikan dengan saus pedas manis—crispy di luar, juicy di dalam!",
+    category: "Makanan",
+    image: "/images/hotang.jpeg"
+  },
+  {
+    id: 8,
+    name: "Mie Jebew",
+    price: 10000,
+    description: "Mie kenyal dengan bumbu pedas membara yang siap bikin lidah jebew! Cocok buat pecinta pedas sejati!",
+    category: "Makanan",
+    image: "/images/miejebew.png"
   }
 ];
