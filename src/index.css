@@ -1,0 +1,76 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+  /* Modern Coffee & White Theme */
+  --background: 30 50% 98%; /* Parchment White */
+  --foreground: 25 35% 25%; /* Dark Coffee Brown Text */
+  
+  --card: 0 0% 100%; /* Pure White */
+  --card-foreground: 25 35% 25%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 25 35% 25%;
+
+  --primary: 27 55% 40%; /* Rich Coffee Brown */
+  --primary-foreground: 30 50% 98%; /* Parchment White on Primary */
+
+  --secondary: 28 30% 90%; /* Light Beige/Tan */
+  --secondary-foreground: 25 35% 25%;
+
+  --muted: 28 30% 90%;
+  --muted-foreground: 25 35% 45%; /* Muted Coffee Text */
+
+  --accent: 28 30% 90%;
+  --accent-foreground: 25 35% 25%;
+
+  --destructive: 0 72% 51%; /* A slightly softer red */
+  --destructive-foreground: 30 50% 98%;
+
+  --border: 28 30% 85%;
+  --input: 28 30% 85%;
+  --ring: 27 55% 40%;
+
+  --radius: 0.75rem;
+}
+
+.dark {
+  /* Add dark mode colors if needed in the future */
+}
+
+
+* {
+  border-color: hsl(var(--border));
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: hsl(var(--background));
+  color: hsl(var(--foreground));
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--secondary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--primary));
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(27, 55%, 35%);
+}
