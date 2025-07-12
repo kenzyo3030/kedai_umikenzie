@@ -26,7 +26,7 @@ function App() {
     <>
       <Helmet>
         <title>Kedai Umi Kenzie - Menu Digital</title>
-        <meta name="description" content="Pesan kopi dan makanan favorit Anda secara online dengan mudah. Langsung chat ke owner!" />
+        <meta name="description" content="Pesan minuman dan makanan favorit Anda secara online dengan mudah. Langsung chat ke owner!" />
       </Helmet>
       
       <div className="min-h-screen bg-stone-50 font-sans">
